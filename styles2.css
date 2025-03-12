@@ -1,0 +1,233 @@
+/* RESET - Normaliza os estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* Cabeçalho */
+header {
+    background-color: #4caf50; /* Verde do campo */
+    padding: 10px 0;
+}
+
+nav .navbar-brand {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+nav .navbar-nav .nav-link {
+    color: white;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+nav .navbar-nav .nav-link:hover {
+    color: #ffeb3b; /* Amarelo */
+}
+
+/* Seção Hero */
+.hero {
+    background-color: #81c784; /* Verde claro */
+    padding: 50px 0;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+/* Títulos */
+.title-default, .title-footer {
+    color: #2e7d32; /* Verde escuro */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.title-blog {
+    color: #4caf50; /* Verde do campo */
+    font-size: 24px;
+}
+
+/* Seções */
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Sobre */
+#sobre {
+    background-color: #ffffff; /* Branco */
+}
+
+#sobre p {
+    font-size: 18px;
+    color: #555;
+}
+
+#sobre .row {
+    margin-top: 30px;
+}
+
+#sobre .col-md-6 {
+    padding: 20px;
+    background-color: #e8f5e9; /* Verde muito claro */
+    border-radius: 8px;
+}
+
+#sobre h3 {
+    font-size: 22px;
+    color: #388e3c; /* Verde mais escuro */
+}
+
+/* Eventos */
+#eventos {
+    background-color: #ffeb3b; /* Amarelo */
+}
+
+#eventos .title-default {
+    color: #2e7d32; /* Verde escuro */
+}
+
+#eventos .box-blog {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+#eventos .box-blog:hover {
+    transform: scale(1.05);
+}
+
+#eventos .btn-blog {
+    background-color: #388e3c; /* Verde escuro */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#eventos .btn-blog:hover {
+    background-color: #2e7d32;
+}
+
+/* Contato */
+#contato {
+    background-color: #81c784; /* Verde claro */
+    color: white;
+}
+
+#contato h3 {
+    color: white;
+}
+
+#contato p {
+    color: white;
+    font-size: 18px;
+}
+
+#contato a {
+    color: white;
+    text-decoration: none;
+}
+
+#contato a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #388e3c; /* Verde escuro */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .text-copyright {
+    font-size: 14px;
+}
+
+footer .text-contact-footer {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+footer .text-contact-footer:hover {
+    text-decoration: underline;
+}
+
+/* Botões e links */
+.btn-gradient {
+    background: linear-gradient(to right, #4caf50, #81c784);
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-gradient:hover {
+    background: linear-gradient(to right, #388e3c, #4caf50);
+}
+
+.rounded-pill {
+    border-radius: 50px;
+}
+
+/* Imagens */
+.img-blog {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+
+    .title-default, .title-footer {
+        font-size: 24px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    #sobre .row {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+}
